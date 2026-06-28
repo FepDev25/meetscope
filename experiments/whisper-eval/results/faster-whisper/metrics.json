@@ -1,0 +1,12 @@
+{
+  "engine": "faster-whisper",
+  "model": "large-v3-turbo",
+  "device": "cpu",
+  "compute_type": "int8",
+  "language": "es",
+  "audio_seconds": 80.469333,
+  "wall_seconds": 27.32296175599913,
+  "real_time_factor": 0.3395450258795997,
+  "segment_count": 19,
+  "has_word_timestamps": true
+}

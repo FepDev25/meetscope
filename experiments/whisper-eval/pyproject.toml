@@ -1,0 +1,20 @@
+[project]
+name = "whisper-eval"
+version = "0.1.0"
+description = "Fase 1: validacion comparativa de faster-whisper vs WhisperX sobre audio real en espanol (CPU)"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+    "faster-whisper>=1.1.0",
+    "whisperx>=3.3.0",
+]
+
+# torch y torchaudio desde el indice CPU de PyTorch para evitar el wheel CUDA.
+# faster-whisper corre sobre CTranslate2 y no necesita torch; WhisperX si.
+[tool.uv.sources]
+torch = { index = "pytorch-cpu" }
+torchaudio = { index = "pytorch-cpu" }
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true

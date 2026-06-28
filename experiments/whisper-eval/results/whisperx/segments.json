@@ -1,0 +1,1266 @@
+[
+  {
+    "start": 0.151,
+    "end": 5.015,
+    "text": " Usar inteligencia artificial para calificar a los estudiantes me parece una mala idea.",
+    "words": [
+      {
+        "start": 0.151,
+        "end": 0.391,
+        "word": "Usar",
+        "probability": 0.719
+      },
+      {
+        "start": 0.471,
+        "end": 0.972,
+        "word": "inteligencia",
+        "probability": 0.9
+      },
+      {
+        "start": 1.012,
+        "end": 1.552,
+        "word": "artificial",
+        "probability": 0.885
+      },
+      {
+        "start": 1.692,
+        "end": 1.852,
+        "word": "para",
+        "probability": 0.796
+      },
+      {
+        "start": 1.952,
+        "end": 2.473,
+        "word": "calificar",
+        "probability": 0.927
+      },
+      {
+        "start": 2.513,
+        "end": 2.553,
+        "word": "a",
+        "probability": 0.488
+      },
+      {
+        "start": 2.593,
+        "end": 2.713,
+        "word": "los",
+        "probability": 0.826
+      },
+      {
+        "start": 2.793,
+        "end": 3.313,
+        "word": "estudiantes",
+        "probability": 0.846
+      },
+      {
+        "start": 3.333,
+        "end": 3.373,
+        "word": "me",
+        "probability": 0.002
+      },
+      {
+        "start": 3.994,
+        "end": 4.314,
+        "word": "parece",
+        "probability": 0.816
+      },
+      {
+        "start": 4.374,
+        "end": 4.454,
+        "word": "una",
+        "probability": 0.571
+      },
+      {
+        "start": 4.514,
+        "end": 4.634,
+        "word": "mala",
+        "probability": 0.638
+      },
+      {
+        "start": 4.714,
+        "end": 5.015,
+        "word": "idea.",
+        "probability": 0.9
+      }
+    ]
+  },
+  {
+    "start": 5.615,
+    "end": 7.597,
+    "text": "Por eso construí justo lo contrario.",
+    "words": [
+      {
+        "start": 5.615,
+        "end": 5.855,
+        "word": "Por",
+        "probability": 0.749
+      },
+      {
+        "start": 5.875,
+        "end": 5.935,
+        "word": "eso",
+        "probability": 0.003
+      },
+      {
+        "start": 5.995,
+        "end": 6.456,
+        "word": "construí",
+        "probability": 0.794
+      },
+      {
+        "start": 6.716,
+        "end": 6.936,
+        "word": "justo",
+        "probability": 0.902
+      },
+      {
+        "start": 6.996,
+        "end": 7.076,
+        "word": "lo",
+        "probability": 0.865
+      },
+      {
+        "start": 7.136,
+        "end": 7.597,
+        "word": "contrario.",
+        "probability": 0.848
+      }
+    ]
+  },
+  {
+    "start": 8.677,
+    "end": 13.381,
+    "text": "Un docente se demora varios minutos en evaluar un solo trabajo con rúbrica.",
+    "words": [
+      {
+        "start": 8.677,
+        "end": 8.777,
+        "word": "Un",
+        "probability": 0.902
+      },
+      {
+        "start": 8.818,
+        "end": 9.298,
+        "word": "docente",
+        "probability": 0.904
+      },
+      {
+        "start": 9.318,
+        "end": 9.398,
+        "word": "se",
+        "probability": 0.624
+      },
+      {
+        "start": 9.438,
+        "end": 9.818,
+        "word": "demora",
+        "probability": 0.894
+      },
+      {
+        "start": 9.858,
+        "end": 10.199,
+        "word": "varios",
+        "probability": 0.768
+      },
+      {
+        "start": 10.339,
+        "end": 10.779,
+        "word": "minutos",
+        "probability": 0.785
+      },
+      {
+        "start": 10.799,
+        "end": 10.839,
+        "word": "en",
+        "probability": 0.007
+      },
+      {
+        "start": 11.339,
+        "end": 11.68,
+        "word": "evaluar",
+        "probability": 0.829
+      },
+      {
+        "start": 11.82,
+        "end": 11.92,
+        "word": "un",
+        "probability": 0.848
+      },
+      {
+        "start": 12.02,
+        "end": 12.24,
+        "word": "solo",
+        "probability": 0.918
+      },
+      {
+        "start": 12.32,
+        "end": 12.66,
+        "word": "trabajo",
+        "probability": 0.787
+      },
+      {
+        "start": 12.76,
+        "end": 12.881,
+        "word": "con",
+        "probability": 0.943
+      },
+      {
+        "start": 12.921,
+        "end": 13.381,
+        "word": "rúbrica.",
+        "probability": 0.886
+      }
+    ]
+  },
+  {
+    "start": 13.981,
+    "end": 17.544,
+    "text": "Multipliquemos eso por 40 alumnos y ahí se fue el fin de semana.",
+    "words": [
+      {
+        "start": 13.981,
+        "end": 14.602,
+        "word": "Multipliquemos",
+        "probability": 0.894
+      },
+      {
+        "start": 14.722,
+        "end": 14.882,
+        "word": "eso",
+        "probability": 0.888
+      },
+      {
+        "start": 14.942,
+        "end": 15.042,
+        "word": "por",
+        "probability": 0.932
+      },
+      {
+        "start": 15.062,
+        "end": 15.102,
+        "word": "40",
+        "probability": 0.996
+      },
+      {
+        "start": 15.482,
+        "end": 15.983,
+        "word": "alumnos",
+        "probability": 0.683
+      },
+      {
+        "start": 16.223,
+        "end": 16.263,
+        "word": "y",
+        "probability": 0.527
+      },
+      {
+        "start": 16.303,
+        "end": 16.423,
+        "word": "ahí",
+        "probability": 0.806
+      },
+      {
+        "start": 16.463,
+        "end": 16.543,
+        "word": "se",
+        "probability": 0.968
+      },
+      {
+        "start": 16.603,
+        "end": 16.723,
+        "word": "fue",
+        "probability": 0.679
+      },
+      {
+        "start": 16.763,
+        "end": 16.823,
+        "word": "el",
+        "probability": 0.746
+      },
+      {
+        "start": 16.863,
+        "end": 16.984,
+        "word": "fin",
+        "probability": 0.974
+      },
+      {
+        "start": 17.004,
+        "end": 17.084,
+        "word": "de",
+        "probability": 0.818
+      },
+      {
+        "start": 17.164,
+        "end": 17.544,
+        "word": "semana.",
+        "probability": 0.964
+      }
+    ]
+  },
+  {
+    "start": 17.924,
+    "end": 20.006,
+    "text": "Classroom IQ no pone la nota.",
+    "words": [
+      {
+        "start": 17.924,
+        "end": 18.405,
+        "word": "Classroom",
+        "probability": 0.733
+      },
+      {
+        "start": 18.425,
+        "end": 18.745,
+        "word": "IQ",
+        "probability": 0.818
+      },
+      {
+        "start": 19.105,
+        "end": 19.185,
+        "word": "no",
+        "probability": 0.935
+      },
+      {
+        "start": 19.265,
+        "end": 19.505,
+        "word": "pone",
+        "probability": 0.724
+      },
+      {
+        "start": 19.586,
+        "end": 19.646,
+        "word": "la",
+        "probability": 0.95
+      },
+      {
+        "start": 19.726,
+        "end": 20.006,
+        "word": "nota.",
+        "probability": 0.903
+      }
+    ]
+  },
+  {
+    "start": 20.506,
+    "end": 22.988,
+    "text": "Arma un borrador, criterio por criterio.",
+    "words": [
+      {
+        "start": 20.506,
+        "end": 20.706,
+        "word": "Arma",
+        "probability": 0.886
+      },
+      {
+        "start": 20.766,
+        "end": 20.826,
+        "word": "un",
+        "probability": 0.664
+      },
+      {
+        "start": 20.886,
+        "end": 21.387,
+        "word": "borrador,",
+        "probability": 0.882
+      },
+      {
+        "start": 21.747,
+        "end": 22.187,
+        "word": "criterio",
+        "probability": 0.941
+      },
+      {
+        "start": 22.268,
+        "end": 22.468,
+        "word": "por",
+        "probability": 0.772
+      },
+      {
+        "start": 22.528,
+        "end": 22.988,
+        "word": "criterio.",
+        "probability": 0.976
+      }
+    ]
+  },
+  {
+    "start": 23.408,
+    "end": 25.55,
+    "text": "Y el profesor sigue siendo el que decide.",
+    "words": [
+      {
+        "start": 23.408,
+        "end": 23.448,
+        "word": "Y",
+        "probability": 0.979
+      },
+      {
+        "start": 23.508,
+        "end": 23.568,
+        "word": "el",
+        "probability": 0.98
+      },
+      {
+        "start": 23.649,
+        "end": 24.129,
+        "word": "profesor",
+        "probability": 0.882
+      },
+      {
+        "start": 24.269,
+        "end": 24.469,
+        "word": "sigue",
+        "probability": 0.893
+      },
+      {
+        "start": 24.609,
+        "end": 24.869,
+        "word": "siendo",
+        "probability": 0.735
+      },
+      {
+        "start": 24.909,
+        "end": 24.99,
+        "word": "el",
+        "probability": 0.61
+      },
+      {
+        "start": 25.05,
+        "end": 25.15,
+        "word": "que",
+        "probability": 0.823
+      },
+      {
+        "start": 25.23,
+        "end": 25.55,
+        "word": "decide.",
+        "probability": 0.669
+      }
+    ]
+  },
+  {
+    "start": 28.515,
+    "end": 31.696,
+    "text": " Para cada criterio te sugiero un nivel y un puntaje.",
+    "words": [
+      {
+        "start": 28.515,
+        "end": 28.675,
+        "word": "Para",
+        "probability": 0.77
+      },
+      {
+        "start": 28.775,
+        "end": 28.975,
+        "word": "cada",
+        "probability": 0.908
+      },
+      {
+        "start": 29.075,
+        "end": 29.616,
+        "word": "criterio",
+        "probability": 0.944
+      },
+      {
+        "start": 29.816,
+        "end": 29.916,
+        "word": "te",
+        "probability": 0.686
+      },
+      {
+        "start": 29.976,
+        "end": 30.376,
+        "word": "sugiero",
+        "probability": 0.742
+      },
+      {
+        "start": 30.416,
+        "end": 30.496,
+        "word": "un",
+        "probability": 0.546
+      },
+      {
+        "start": 30.556,
+        "end": 30.776,
+        "word": "nivel",
+        "probability": 0.789
+      },
+      {
+        "start": 30.796,
+        "end": 30.816,
+        "word": "y",
+        "probability": 0.004
+      },
+      {
+        "start": 31.096,
+        "end": 31.156,
+        "word": "un",
+        "probability": 0.938
+      },
+      {
+        "start": 31.236,
+        "end": 31.696,
+        "word": "puntaje.",
+        "probability": 0.938
+      }
+    ]
+  },
+  {
+    "start": 32.237,
+    "end": 33.537,
+    "text": "Pero lo importante es esto.",
+    "words": [
+      {
+        "start": 32.237,
+        "end": 32.417,
+        "word": "Pero",
+        "probability": 0.85
+      },
+      {
+        "start": 32.477,
+        "end": 32.537,
+        "word": "lo",
+        "probability": 0.914
+      },
+      {
+        "start": 32.597,
+        "end": 33.157,
+        "word": "importante",
+        "probability": 0.896
+      },
+      {
+        "start": 33.237,
+        "end": 33.277,
+        "word": "es",
+        "probability": 0.439
+      },
+      {
+        "start": 33.317,
+        "end": 33.537,
+        "word": "esto.",
+        "probability": 0.901
+      }
+    ]
+  },
+  {
+    "start": 34.198,
+    "end": 38.82,
+    "text": "Cada justificación trae los fragmentos exactos del trabajo resaltados.",
+    "words": [
+      {
+        "start": 34.198,
+        "end": 34.398,
+        "word": "Cada",
+        "probability": 0.857
+      },
+      {
+        "start": 34.518,
+        "end": 35.258,
+        "word": "justificación",
+        "probability": 0.997
+      },
+      {
+        "start": 35.278,
+        "end": 35.358,
+        "word": "trae",
+        "probability": 0.002
+      },
+      {
+        "start": 35.858,
+        "end": 35.958,
+        "word": "los",
+        "probability": 0.816
+      },
+      {
+        "start": 36.018,
+        "end": 36.599,
+        "word": "fragmentos",
+        "probability": 0.844
+      },
+      {
+        "start": 36.699,
+        "end": 37.199,
+        "word": "exactos",
+        "probability": 0.881
+      },
+      {
+        "start": 37.259,
+        "end": 37.399,
+        "word": "del",
+        "probability": 0.807
+      },
+      {
+        "start": 37.479,
+        "end": 37.879,
+        "word": "trabajo",
+        "probability": 0.906
+      },
+      {
+        "start": 37.899,
+        "end": 38.82,
+        "word": "resaltados.",
+        "probability": 0.699
+      }
+    ]
+  },
+  {
+    "start": 39.22,
+    "end": 42.001,
+    "text": "Haces clic en la cita y te lleva al texto original.",
+    "words": [
+      {
+        "start": 39.22,
+        "end": 39.5,
+        "word": "Haces",
+        "probability": 0.621
+      },
+      {
+        "start": 39.56,
+        "end": 39.8,
+        "word": "clic",
+        "probability": 0.608
+      },
+      {
+        "start": 39.82,
+        "end": 39.9,
+        "word": "en",
+        "probability": 0.686
+      },
+      {
+        "start": 39.96,
+        "end": 40.02,
+        "word": "la",
+        "probability": 0.862
+      },
+      {
+        "start": 40.12,
+        "end": 40.44,
+        "word": "cita",
+        "probability": 0.854
+      },
+      {
+        "start": 40.46,
+        "end": 40.48,
+        "word": "y",
+        "probability": 0.005
+      },
+      {
+        "start": 40.7,
+        "end": 40.781,
+        "word": "te",
+        "probability": 0.686
+      },
+      {
+        "start": 40.821,
+        "end": 41.041,
+        "word": "lleva",
+        "probability": 0.908
+      },
+      {
+        "start": 41.061,
+        "end": 41.141,
+        "word": "al",
+        "probability": 0.626
+      },
+      {
+        "start": 41.221,
+        "end": 41.461,
+        "word": "texto",
+        "probability": 0.957
+      },
+      {
+        "start": 41.541,
+        "end": 42.001,
+        "word": "original.",
+        "probability": 0.966
+      }
+    ]
+  },
+  {
+    "start": 42.541,
+    "end": 43.382,
+    "text": "Nada inventado.",
+    "words": [
+      {
+        "start": 42.541,
+        "end": 42.781,
+        "word": "Nada",
+        "probability": 0.608
+      },
+      {
+        "start": 42.821,
+        "end": 43.382,
+        "word": "inventado.",
+        "probability": 0.926
+      }
+    ]
+  },
+  {
+    "start": 44.122,
+    "end": 47.403,
+    "text": "Editas lo que quieras y cuando apruebas queda congelado.",
+    "words": [
+      {
+        "start": 44.122,
+        "end": 44.482,
+        "word": "Editas",
+        "probability": 0.851
+      },
+      {
+        "start": 44.542,
+        "end": 44.602,
+        "word": "lo",
+        "probability": 0.958
+      },
+      {
+        "start": 44.662,
+        "end": 44.742,
+        "word": "que",
+        "probability": 0.846
+      },
+      {
+        "start": 44.842,
+        "end": 45.182,
+        "word": "quieras",
+        "probability": 0.775
+      },
+      {
+        "start": 45.202,
+        "end": 45.222,
+        "word": "y",
+        "probability": 0.023
+      },
+      {
+        "start": 45.703,
+        "end": 45.943,
+        "word": "cuando",
+        "probability": 0.815
+      },
+      {
+        "start": 45.963,
+        "end": 46.383,
+        "word": "apruebas",
+        "probability": 0.754
+      },
+      {
+        "start": 46.603,
+        "end": 46.823,
+        "word": "queda",
+        "probability": 0.867
+      },
+      {
+        "start": 46.883,
+        "end": 47.403,
+        "word": "congelado.",
+        "probability": 0.904
+      }
+    ]
+  },
+  {
+    "start": 49.684,
+    "end": 52.386,
+    "text": "Detecta trabajos parecidos por significado.",
+    "words": [
+      {
+        "start": 49.684,
+        "end": 50.165,
+        "word": "Detecta",
+        "probability": 0.767
+      },
+      {
+        "start": 50.265,
+        "end": 50.645,
+        "word": "trabajos",
+        "probability": 0.858
+      },
+      {
+        "start": 50.785,
+        "end": 51.325,
+        "word": "parecidos",
+        "probability": 0.902
+      },
+      {
+        "start": 51.425,
+        "end": 51.545,
+        "word": "por",
+        "probability": 0.996
+      },
+      {
+        "start": 51.665,
+        "end": 52.386,
+        "word": "significado.",
+        "probability": 0.902
+      }
+    ]
+  },
+  {
+    "start": 52.886,
+    "end": 54.106,
+    "text": "No solo copia y pega.",
+    "words": [
+      {
+        "start": 52.886,
+        "end": 52.986,
+        "word": "No",
+        "probability": 0.867
+      },
+      {
+        "start": 53.086,
+        "end": 53.266,
+        "word": "solo",
+        "probability": 0.887
+      },
+      {
+        "start": 53.286,
+        "end": 53.386,
+        "word": "copia",
+        "probability": 0.009
+      },
+      {
+        "start": 53.726,
+        "end": 53.766,
+        "word": "y",
+        "probability": 0.787
+      },
+      {
+        "start": 53.866,
+        "end": 54.106,
+        "word": "pega.",
+        "probability": 0.774
+      }
+    ]
+  },
+  {
+    "start": 54.667,
+    "end": 57.608,
+    "text": "Siempre como alerta, nunca como una acusación.",
+    "words": [
+      {
+        "start": 54.667,
+        "end": 54.967,
+        "word": "Siempre",
+        "probability": 0.838
+      },
+      {
+        "start": 55.047,
+        "end": 55.247,
+        "word": "como",
+        "probability": 0.747
+      },
+      {
+        "start": 55.307,
+        "end": 55.707,
+        "word": "alerta,",
+        "probability": 0.897
+      },
+      {
+        "start": 56.027,
+        "end": 56.267,
+        "word": "nunca",
+        "probability": 0.752
+      },
+      {
+        "start": 56.347,
+        "end": 56.528,
+        "word": "como",
+        "probability": 0.69
+      },
+      {
+        "start": 56.648,
+        "end": 56.788,
+        "word": "una",
+        "probability": 0.887
+      },
+      {
+        "start": 56.848,
+        "end": 57.608,
+        "word": "acusación.",
+        "probability": 0.852
+      }
+    ]
+  },
+  {
+    "start": 58.204,
+    "end": 60.705,
+    "text": " Y te resume cómo le fue a todo el curso.",
+    "words": [
+      {
+        "start": 58.204,
+        "end": 58.264,
+        "word": "Y",
+        "probability": 0.711
+      },
+      {
+        "start": 58.304,
+        "end": 58.404,
+        "word": "te",
+        "probability": 0.825
+      },
+      {
+        "start": 58.464,
+        "end": 58.844,
+        "word": "resume",
+        "probability": 0.941
+      },
+      {
+        "start": 59.084,
+        "end": 59.364,
+        "word": "cómo",
+        "probability": 0.958
+      },
+      {
+        "start": 59.445,
+        "end": 59.545,
+        "word": "le",
+        "probability": 0.946
+      },
+      {
+        "start": 59.665,
+        "end": 59.885,
+        "word": "fue",
+        "probability": 0.699
+      },
+      {
+        "start": 59.905,
+        "end": 59.925,
+        "word": "a",
+        "probability": 0.021
+      },
+      {
+        "start": 60.025,
+        "end": 60.185,
+        "word": "todo",
+        "probability": 0.995
+      },
+      {
+        "start": 60.205,
+        "end": 60.285,
+        "word": "el",
+        "probability": 0.598
+      },
+      {
+        "start": 60.385,
+        "end": 60.705,
+        "word": "curso.",
+        "probability": 0.98
+      }
+    ]
+  },
+  {
+    "start": 61.605,
+    "end": 64.947,
+    "text": "Por debajo, búsqueda semántica con embeddings locales.",
+    "words": [
+      {
+        "start": 61.605,
+        "end": 61.725,
+        "word": "Por",
+        "probability": 0.984
+      },
+      {
+        "start": 61.785,
+        "end": 62.246,
+        "word": "debajo,",
+        "probability": 0.919
+      },
+      {
+        "start": 62.566,
+        "end": 62.926,
+        "word": "búsqueda",
+        "probability": 0.984
+      },
+      {
+        "start": 63.046,
+        "end": 63.666,
+        "word": "semántica",
+        "probability": 0.956
+      },
+      {
+        "start": 63.766,
+        "end": 63.906,
+        "word": "con",
+        "probability": 0.884
+      },
+      {
+        "start": 63.966,
+        "end": 64.446,
+        "word": "embeddings",
+        "probability": 0.576
+      },
+      {
+        "start": 64.526,
+        "end": 64.947,
+        "word": "locales.",
+        "probability": 0.923
+      }
+    ]
+  },
+  {
+    "start": 65.527,
+    "end": 68.188,
+    "text": "El trabajo de los alumnos no sale del servidor.",
+    "words": [
+      {
+        "start": 65.527,
+        "end": 65.607,
+        "word": "El",
+        "probability": 0.858
+      },
+      {
+        "start": 65.647,
+        "end": 65.967,
+        "word": "trabajo",
+        "probability": 0.947
+      },
+      {
+        "start": 66.007,
+        "end": 66.087,
+        "word": "de",
+        "probability": 0.892
+      },
+      {
+        "start": 66.127,
+        "end": 66.227,
+        "word": "los",
+        "probability": 0.868
+      },
+      {
+        "start": 66.327,
+        "end": 66.767,
+        "word": "alumnos",
+        "probability": 0.863
+      },
+      {
+        "start": 67.007,
+        "end": 67.107,
+        "word": "no",
+        "probability": 0.904
+      },
+      {
+        "start": 67.187,
+        "end": 67.488,
+        "word": "sale",
+        "probability": 0.939
+      },
+      {
+        "start": 67.528,
+        "end": 67.648,
+        "word": "del",
+        "probability": 0.602
+      },
+      {
+        "start": 67.708,
+        "end": 68.188,
+        "word": "servidor.",
+        "probability": 0.958
+      }
+    ]
+  },
+  {
+    "start": 69.688,
+    "end": 73.61,
+    "text": "De horas de trabajo a 15 minutos sin que la IA te quite el criterio.",
+    "words": [
+      {
+        "start": 69.688,
+        "end": 69.768,
+        "word": "De",
+        "probability": 0.85
+      },
+      {
+        "start": 69.828,
+        "end": 70.008,
+        "word": "horas",
+        "probability": 0.936
+      },
+      {
+        "start": 70.068,
+        "end": 70.149,
+        "word": "de",
+        "probability": 0.727
+      },
+      {
+        "start": 70.209,
+        "end": 70.589,
+        "word": "trabajo",
+        "probability": 0.878
+      },
+      {
+        "start": 70.609,
+        "end": 70.629,
+        "word": "a",
+        "probability": 0.005
+      },
+      {
+        "start": 70.949,
+        "end": 71.169,
+        "word": "15",
+        "probability": 0.624
+      },
+      {
+        "start": 71.249,
+        "end": 71.589,
+        "word": "minutos",
+        "probability": 0.766
+      },
+      {
+        "start": 71.609,
+        "end": 71.669,
+        "word": "sin",
+        "probability": 0.001
+      },
+      {
+        "start": 72.049,
+        "end": 72.149,
+        "word": "que",
+        "probability": 0.812
+      },
+      {
+        "start": 72.209,
+        "end": 72.269,
+        "word": "la",
+        "probability": 0.96
+      },
+      {
+        "start": 72.409,
+        "end": 72.569,
+        "word": "IA",
+        "probability": 0.802
+      },
+      {
+        "start": 72.649,
+        "end": 72.729,
+        "word": "te",
+        "probability": 0.763
+      },
+      {
+        "start": 72.789,
+        "end": 72.99,
+        "word": "quite",
+        "probability": 0.612
+      },
+      {
+        "start": 73.03,
+        "end": 73.11,
+        "word": "el",
+        "probability": 0.643
+      },
+      {
+        "start": 73.15,
+        "end": 73.61,
+        "word": "criterio.",
+        "probability": 0.94
+      }
+    ]
+  },
+  {
+    "start": 74.21,
+    "end": 77.831,
+    "text": "Mi nombre es Felipe y construyo sistemas Full Stack con IA aplicada.",
+    "words": [
+      {
+        "start": 74.21,
+        "end": 74.25,
+        "word": "Mi",
+        "probability": 0.94
+      },
+      {
+        "start": 74.29,
+        "end": 74.53,
+        "word": "nombre",
+        "probability": 0.856
+      },
+      {
+        "start": 74.55,
+        "end": 74.59,
+        "word": "es",
+        "probability": 0.01
+      },
+      {
+        "start": 74.63,
+        "end": 75.09,
+        "word": "Felipe",
+        "probability": 0.357
+      },
+      {
+        "start": 75.11,
+        "end": 75.13,
+        "word": "y",
+        "probability": 0.001
+      },
+      {
+        "start": 75.17,
+        "end": 75.591,
+        "word": "construyo",
+        "probability": 0.789
+      },
+      {
+        "start": 75.651,
+        "end": 75.991,
+        "word": "sistemas",
+        "probability": 0.905
+      },
+      {
+        "start": 76.011,
+        "end": 76.091,
+        "word": "Full",
+        "probability": 0.006
+      },
+      {
+        "start": 76.371,
+        "end": 76.671,
+        "word": "Stack",
+        "probability": 0.825
+      },
+      {
+        "start": 76.891,
+        "end": 77.011,
+        "word": "con",
+        "probability": 0.915
+      },
+      {
+        "start": 77.131,
+        "end": 77.291,
+        "word": "IA",
+        "probability": 0.849
+      },
+      {
+        "start": 77.351,
+        "end": 77.831,
+        "word": "aplicada.",
+        "probability": 0.851
+      }
+    ]
+  },
+  {
+    "start": 78.232,
+    "end": 79.512,
+    "text": "Si te interesa, sígueme.",
+    "words": [
+      {
+        "start": 78.232,
+        "end": 78.332,
+        "word": "Si",
+        "probability": 0.75
+      },
+      {
+        "start": 78.352,
+        "end": 78.432,
+        "word": "te",
+        "probability": 0.757
+      },
+      {
+        "start": 78.492,
+        "end": 78.992,
+        "word": "interesa,",
+        "probability": 0.888
+      },
+      {
+        "start": 79.212,
+        "end": 79.512,
+        "word": "sígueme.",
+        "probability": 0.567
+      }
+    ]
+  }
+]

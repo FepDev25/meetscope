@@ -1,0 +1,19 @@
+Usar inteligencia artificial para calificar a los estudiantes me parece una mala idea.
+Por eso construí justo lo contrario.
+Un docente se demora varios minutos en evaluar un solo trabajo con rúbrica.
+Multipliquemos eso por 40 alumnos y ahí se fue el fin de semana.
+Classroom IQ no pone la nota, arma un borrador, criterio por criterio, y el profesor sigue siendo el que decide.
+Para cada criterio te sugiere un nivel y un puntaje, pero lo importante es esto.
+Cada justificación trae los fragmentos exactos del trabajo resaltados.
+Haces clic en la cita y te lleva al texto original.
+Nada inventado.
+Editas lo que quieras y cuando apruebas queda congelado.
+Detecta trabajos parecidos por significado.
+No solo copia y pega.
+Siempre como alerta, nunca como una acusación.
+Y te resume cómo le fue a todo el curso.
+Por debajo, búsqueda semántica con embeddings locales.
+El trabajo de los alumnos no sale del servidor.
+De horas de trabajo a 15 minutos sin que la IA te quite el criterio.
+Mi nombre es Felipe y construyo sistemas Full Stack con IA aplicada.
+Si te interesa, sígueme.
