@@ -1,0 +1,44 @@
+spring:
+  application:
+    name: ingest-service
+  datasource:
+    url: jdbc:postgresql://localhost:5433/meetscope
+    username: meetscope
+    password: meetscope
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    open-in-view: false
+  kafka:
+    bootstrap-servers: localhost:9092
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: io.confluent.kafka.serializers.KafkaAvroSerializer
+      properties:
+        schema.registry.url: http://localhost:8081
+        # El contrato se registra fuera de banda (scripts/register_schemas.py).
+        # El productor usa el esquema ya registrado, no registra al vuelo.
+        auto.register.schemas: false
+        use.latest.version: true
+  servlet:
+    multipart:
+      max-file-size: 2GB
+      max-request-size: 2GB
+
+server:
+  port: 8090
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health, info
+
+app:
+  minio:
+    endpoint: http://localhost:9000
+    access-key: minioadmin
+    secret-key: minioadmin
+    bucket: meetscope-audio
+  topics:
+    audio-uploaded: audio.uploaded
