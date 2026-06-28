@@ -1,0 +1,95 @@
+{
+  "type": "record",
+  "name": "TranscriptCreated",
+  "namespace": "com.meetscope.events",
+  "doc": "Emitido por transcription-worker al terminar la transcripcion. Hace fan-out a enrichment-service e indexing-service en paralelo. Topic: transcript.created.",
+  "fields": [
+    {
+      "name": "event_id",
+      "type": { "type": "string", "logicalType": "uuid" },
+      "doc": "Identificador unico de este evento."
+    },
+    {
+      "name": "job_id",
+      "type": { "type": "string", "logicalType": "uuid" },
+      "doc": "Identificador del job. Clave de idempotencia junto a la etapa."
+    },
+    {
+      "name": "occurred_at",
+      "type": { "type": "long", "logicalType": "timestamp-millis" },
+      "doc": "Instante de emision del evento (UTC)."
+    },
+    {
+      "name": "audio",
+      "type": {
+        "type": "record",
+        "name": "ObjectRef",
+        "doc": "Referencia al audio original en el object storage.",
+        "fields": [
+          { "name": "bucket", "type": "string" },
+          { "name": "key", "type": "string" }
+        ]
+      },
+      "doc": "Referencia al audio, propagada para que los consumidores enlacen los resultados al audio."
+    },
+    {
+      "name": "model",
+      "type": "string",
+      "doc": "Modelo de transcripcion usado, p. ej. large-v3-turbo."
+    },
+    {
+      "name": "language",
+      "type": "string",
+      "doc": "Idioma detectado o forzado, ISO 639-1."
+    },
+    {
+      "name": "audio_seconds",
+      "type": "double",
+      "doc": "Duracion del audio en segundos."
+    },
+    {
+      "name": "full_text",
+      "type": "string",
+      "doc": "Texto completo concatenado. Conveniencia para enrichment."
+    },
+    {
+      "name": "segments",
+      "type": {
+        "type": "array",
+        "items": {
+          "type": "record",
+          "name": "Segment",
+          "doc": "Segmento de transcripcion con sus tiempos. Los timestamps provienen siempre de Whisper, nunca del LLM.",
+          "fields": [
+            { "name": "id", "type": "int", "doc": "Indice del segmento, base 0." },
+            { "name": "start", "type": "double", "doc": "Inicio en segundos." },
+            { "name": "end", "type": "double", "doc": "Fin en segundos." },
+            { "name": "text", "type": "string" },
+            {
+              "name": "words",
+              "type": [
+                "null",
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "record",
+                    "name": "Word",
+                    "doc": "Palabra con timestamp. Aproximado a nivel modelo en faster-whisper.",
+                    "fields": [
+                      { "name": "start", "type": ["null", "double"], "default": null },
+                      { "name": "end", "type": ["null", "double"], "default": null },
+                      { "name": "word", "type": "string" },
+                      { "name": "probability", "type": ["null", "double"], "default": null }
+                    ]
+                  }
+                }
+              ],
+              "default": null,
+              "doc": "Timestamps por palabra. Opcional: presentes con large-v3-turbo, ausentes si se desactivan."
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

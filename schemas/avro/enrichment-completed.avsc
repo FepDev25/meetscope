@@ -1,0 +1,66 @@
+{
+  "type": "record",
+  "name": "EnrichmentCompleted",
+  "namespace": "com.meetscope.events",
+  "doc": "Emitido por enrichment-service tras producir el resumen estructurado y los action items via LLM. Topic: enrichment.completed.",
+  "fields": [
+    {
+      "name": "event_id",
+      "type": { "type": "string", "logicalType": "uuid" },
+      "doc": "Identificador unico de este evento."
+    },
+    {
+      "name": "job_id",
+      "type": { "type": "string", "logicalType": "uuid" },
+      "doc": "Identificador del job. Clave de idempotencia junto a la etapa."
+    },
+    {
+      "name": "occurred_at",
+      "type": { "type": "long", "logicalType": "timestamp-millis" },
+      "doc": "Instante de emision del evento (UTC)."
+    },
+    {
+      "name": "llm_model",
+      "type": "string",
+      "doc": "Identificador del modelo LLM usado para el enriquecimiento."
+    },
+    {
+      "name": "summary",
+      "type": {
+        "type": "record",
+        "name": "Summary",
+        "doc": "Resumen estructurado de la reunion. Sin texto libre suelto: tres listas.",
+        "fields": [
+          { "name": "topics", "type": { "type": "array", "items": "string" }, "doc": "Temas tratados." },
+          { "name": "decisions", "type": { "type": "array", "items": "string" }, "doc": "Decisiones tomadas." },
+          { "name": "open_questions", "type": { "type": "array", "items": "string" }, "doc": "Preguntas abiertas." }
+        ]
+      }
+    },
+    {
+      "name": "action_items",
+      "type": {
+        "type": "array",
+        "items": {
+          "type": "record",
+          "name": "ActionItem",
+          "fields": [
+            { "name": "text", "type": "string", "doc": "Descripcion de la accion." },
+            {
+              "name": "assignee",
+              "type": ["null", "string"],
+              "default": null,
+              "doc": "Responsable inferido del texto en el MVP. La extension de diarizacion lo corrige con el hablante real."
+            },
+            {
+              "name": "source_segment_id",
+              "type": ["null", "int"],
+              "default": null,
+              "doc": "Segmento del transcript del que se infirio, para trazar al audio."
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

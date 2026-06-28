@@ -1,0 +1,49 @@
+{
+  "type": "record",
+  "name": "IndexingCompleted",
+  "namespace": "com.meetscope.events",
+  "doc": "Emitido por indexing-service tras chunking, generacion de embeddings y escritura en pgvector. Topic: indexing.completed.",
+  "fields": [
+    {
+      "name": "event_id",
+      "type": { "type": "string", "logicalType": "uuid" },
+      "doc": "Identificador unico de este evento."
+    },
+    {
+      "name": "job_id",
+      "type": { "type": "string", "logicalType": "uuid" },
+      "doc": "Identificador del job. Clave de idempotencia junto a la etapa."
+    },
+    {
+      "name": "occurred_at",
+      "type": { "type": "long", "logicalType": "timestamp-millis" },
+      "doc": "Instante de emision del evento (UTC)."
+    },
+    {
+      "name": "chunk_count",
+      "type": "int",
+      "doc": "Numero de chunks indexados en pgvector."
+    },
+    {
+      "name": "embedding_model",
+      "type": "string",
+      "doc": "Modelo de embeddings multilingue usado."
+    },
+    {
+      "name": "embedding_model_version",
+      "type": "string",
+      "doc": "Version del modelo de embeddings. Habilita el reprocesamiento masivo sin perder el indice viejo."
+    },
+    {
+      "name": "embedding_dim",
+      "type": "int",
+      "doc": "Dimensionalidad de los vectores escritos."
+    },
+    {
+      "name": "vector_store",
+      "type": "string",
+      "default": "pgvector",
+      "doc": "Backend de almacenamiento vectorial."
+    }
+  ]
+}

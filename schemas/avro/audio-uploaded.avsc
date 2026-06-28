@@ -1,0 +1,58 @@
+{
+  "type": "record",
+  "name": "AudioUploaded",
+  "namespace": "com.meetscope.events",
+  "doc": "Emitido por ingest-service cuando un audio se almacena y queda listo para transcribir. Lleva la referencia al object storage, nunca el binario. Topic: audio.uploaded.",
+  "fields": [
+    {
+      "name": "event_id",
+      "type": { "type": "string", "logicalType": "uuid" },
+      "doc": "Identificador unico de este evento."
+    },
+    {
+      "name": "job_id",
+      "type": { "type": "string", "logicalType": "uuid" },
+      "doc": "Identificador del job. Clave de idempotencia junto a la etapa."
+    },
+    {
+      "name": "occurred_at",
+      "type": { "type": "long", "logicalType": "timestamp-millis" },
+      "doc": "Instante de emision del evento (UTC)."
+    },
+    {
+      "name": "audio",
+      "type": {
+        "type": "record",
+        "name": "ObjectRef",
+        "doc": "Referencia a un objeto en el object storage compatible S3 (MinIO).",
+        "fields": [
+          { "name": "bucket", "type": "string" },
+          { "name": "key", "type": "string" }
+        ]
+      },
+      "doc": "Ubicacion del audio almacenado."
+    },
+    {
+      "name": "original_filename",
+      "type": ["null", "string"],
+      "default": null,
+      "doc": "Nombre original del archivo subido, si se conoce."
+    },
+    {
+      "name": "content_type",
+      "type": "string",
+      "doc": "Tipo MIME, p. ej. audio/mpeg."
+    },
+    {
+      "name": "size_bytes",
+      "type": "long",
+      "doc": "Tamano del audio en bytes."
+    },
+    {
+      "name": "language_hint",
+      "type": ["null", "string"],
+      "default": null,
+      "doc": "Pista de idioma ISO 639-1, p. ej. es. null indica autodeteccion."
+    }
+  ]
+}
