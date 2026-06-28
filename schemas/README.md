@@ -19,6 +19,15 @@ schemas/
 
 Namespace: `com.meetscope.events`. Subject naming `TopicNameStrategy`, compatibilidad `BACKWARD`. Detalle completo de la topologia y las convenciones en `../docs/EVENT-CONTRACT.md`.
 
+## Registrar en Schema Registry
+
+Con la infraestructura levantada, registra (idempotente) los esquemas en sus
+subjects `<topic>-value` con compatibilidad `BACKWARD`:
+
+```sh
+python scripts/register_schemas.py
+```
+
 ## Validar los esquemas
 
 ```sh
